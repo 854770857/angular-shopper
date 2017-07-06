@@ -1,0 +1,134 @@
+body {
+  background: #f4f4f4; }
+
+.header a {
+  color: #b2b2b2;
+  position: absolute;
+  left: 15px;
+  top: 12px; }
+
+.top {
+  line-height: 30px;
+  text-align: center; }
+
+.oral {
+  background: #fff;
+  margin-bottom: 10px; }
+
+.heading {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #ccc; }
+  .heading h5 {
+    margin: 0;
+    line-height: 44px; }
+    .heading h5 .toggle input:checked + .mark-radius .icon {
+      display: block; }
+    .heading h5 .mark-radius {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      border: 1px solid #ccc; }
+      .heading h5 .mark-radius .icon {
+        display: none;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background: #0099ff;
+        margin-top: 6px;
+        margin-left: 6px; }
+
+.heading-title h6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  line-height: 34px; }
+  .heading-title h6 .toggle input:checked + .mark-checkbox .icon {
+    display: block; }
+  .heading-title h6 .mark-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc; }
+    .heading-title h6 .mark-checkbox .icon {
+      border-left: 3px solid #0099ff;
+      border-bottom: 3px solid #0099ff;
+      width: 14px;
+      height: 8px;
+      -webkit-transform: rotate(-45deg);
+      margin-left: 3px;
+      margin-top: 3px;
+      display: none; }
+
+.mathematical {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc; }
+
+.univalent {
+  color: #fd7449 !important;
+  line-height: 30px; }
+
+.num span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc; }
+.num span:nth-child(2) {
+  width: 45px; }
+
+.order {
+  line-height: 44px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #666; }
+  .order i {
+    float: right; }
+
+.introduce {
+  padding-left: 18px;
+  padding-right: 18px;
+  color: #666;
+  padding-bottom: 5px; }
+  .introduce p {
+    margin-bottom: 0; }
+
+.installment {
+  background: #fff; }
+
+.installment-title {
+  line-height: 25px;
+  text-align: center;
+  color: #fd6a3c;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+
+.list {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around; }
+  .list div {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px; }
+    .list div p {
+      margin-bottom: 0;
+      font-size: 12px; }
+  .list .on {
+    background: #fd6a3c;
+    color: #fff; }
+
+.footer .button {
+  border-radius: 0;
+  background: #fd6a3c !important;
+  color: #fff; }
+.footer p {
+  color: #666; }
+  .footer p span {
+    font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

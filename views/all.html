@@ -1,0 +1,20 @@
+
+<div class="heading-title" ><!--ng-controller="child"-->
+
+    <h6>
+        <label class="toggle">
+            <input type="checkbox" ng-model="checked" ng-click="togglecheckbox()">
+            <div class="mark-checkbox">
+                <div class="icon"></div>
+            </div>
+        </label>
+        {{listData2.name}}</h6>
+    <div class="mathematical">
+        <span class="univalent">￥{{listData2.price}}</span>
+        <div class="num">
+            <span ng-click="del()">-</span>
+            <span>{{sum}}</span>
+            <span ng-click="add()">+</span>
+        </div>
+    </div>
+</div>

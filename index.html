@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/ionic.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<ion-header-bar align-title="center" class="header">
+    <a href="#"><i class="icon ion-chevron-left"></i></a>
+    <h1 class="title">我的购物车</h1>
+</ion-header-bar>
+<ion-content class="section" [scroll="false"]>
+    <div class="top f12">分期提示：在项目向左滑动可删除项目</div>
+    <!--购物区-->
+    <!--<div class="oral">
+        <div class="heading">
+            <h5>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-radius blue">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                北京佳美口腔医院（三里屯店）</h5>
+        </div>
+        <div class="heading-title">
+            <h6>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-checkbox">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                牙齿矫正牙齿矫正牙齿</h6>
+            <div class="mathematical">
+                <span class="univalent">￥100</span>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </div>
+            <h6>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-checkbox">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                牙齿矫正牙齿矫正牙齿</h6>
+            <div class="mathematical">
+                <span class="univalent">￥100</span>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </div>
+        </div>
+        <div class="order"><i class="icon ion-chevron-right"></i>
+            订单留言
+        </div>
+    </div>-->
+    <hospital-shop list-data="list"></hospital-shop>
+    <hospital-shop list-data="list2"></hospital-shop>
+    <!--<div class="oral whole">
+        <div class="heading">
+            <h5>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-radius blue">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                英煌整形医院（三里屯店）</h5>
+        </div>
+        <div class="heading-title">
+            <h6>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-checkbox">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                瘦脸针</h6>
+            <div class="mathematical">
+                <span class="univalent">￥500</span>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </div>
+            <h6>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="mark-checkbox">
+                        <div class="icon"></div>
+                    </div>
+                </label>
+                厚唇</h6>
+            <div class="mathematical">
+                <span class="univalent">￥1000</span>
+                <div class="num">
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </div>
+            </div>
+        </div>
+        <div class="order"><i class="icon ion-chevron-right"></i>
+            订单留言
+        </div>
+    </div>-->
+
+    <div class="introduce f10"><p>
+        每次只能申请一家商户的多个项目,最多可同时申请3家商户的多个项目,申请中 的项目总金额在2,000-200000元之间
+    </p></div>
+
+    <div class="installment">
+        <div class="installment-title f14">每期还款：￥400.00期</div>
+        <div class="list">
+            <div class="on">
+                <span>3期</span>
+                <p>(0手续费)</p>
+            </div>
+            <div>
+                <span>6期</span>
+                <p>(0手续费)</p>
+            </div>
+            <div>
+                <span>9期</span>
+                <p>(0手续费)</p>
+            </div>
+            <div>
+                <span>12期</span>
+                <p>(0手续费)</p>
+            </div>
+        </div>
+    </div>
+</ion-content>
+<ion-footer-bar class="footer" align-title="left">
+    <p class="title"><span>总金额:</span><span>{{total}}</span></p>
+    <button class="button">申请分期</button>
+</ion-footer-bar>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.min.js"></script>
+<script src="js/ionic.bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="js/directive.js"></script>
+
+</body>
+</html>
